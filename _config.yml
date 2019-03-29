@@ -79,7 +79,9 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 
 deploy:
-  type: git
-  repo:     
-	coding: git@git.coding.net:yeaonai/yeaonai.git,master
-	github: git@github.com:yeaonai/yeaonai.github.io.git,master
+  - type: git
+    repo: https://git.dev.tencent.com/yeaonai/yeaonai.coding.me.git
+    branch: coding-pages
+  - type: git
+    repo: https://github.com/yeaonai/yeaonai.github.io.git
+    branch: gh-pages
